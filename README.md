@@ -2,7 +2,7 @@
 该资源为系统安全和逆向分析实验，包括作者从零学习恶意代码分析、病毒逆向分析的工具及样本，基础性文章，希望对您有所帮助~
 
 
-参考文章：
+博客原文：
 
 - [[系统安全] 一.什么是逆向分析、逆向分析基础及经典扫雷游戏逆向](https://blog.csdn.net/Eastmount/article/details/108708564)
 - [[系统安全] 二.如何学好逆向分析及吕布传游戏逆向案例](https://blog.csdn.net/eastmount/article/details/108832086)
@@ -14,5 +14,14 @@
 - [[系统安全] 八.Windows漏洞利用之CVE-2019-0708复现及蓝屏攻击](https://blog.csdn.net/Eastmount/article/details/111085560)
 - [[系统安全] 九.Windows漏洞利用之MS08-067远程代码执行漏洞复现及深度提权](https://blog.csdn.net/Eastmount/article/details/111341612)
 - [[系统安全] 十.Windows漏洞利用之SMBv3服务远程代码执行漏洞（CVE-2020-0796）复现](https://blog.csdn.net/Eastmount/article/details/111518785)
+
+待分享目录：
+
+- [系统安全] 十一.那些年的熊猫烧香及PE病毒行为机理分析
+- [系统安全] 十二.熊猫烧香病毒IDA和OD逆向分析（上）病毒初始化
+- [系统安全] 十三.熊猫烧香病毒IDA和OD逆向分析（中）病毒释放机理
+- [系统安全] 十四.熊猫烧香病毒IDA和OD逆向分析（下）病毒核心功能
+
+
 
 
