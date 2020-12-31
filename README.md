@@ -6,7 +6,7 @@
 
 - [[系统安全] 一.什么是逆向分析、逆向分析基础及经典扫雷游戏逆向](https://blog.csdn.net/Eastmount/article/details/108708564)
 
-- [系统安全] 二.如何学好逆向分析及吕布传游戏逆向案例
+- [[系统安全] 二.如何学好逆向分析及吕布传游戏逆向案例](https://blog.csdn.net/eastmount/article/details/108832086)
 - [系统安全] 三.IDA Pro反汇编工具初识及逆向工程解密实战
 - [系统安全] 四.OllyDbg动态分析工具基础用法及Crakeme逆向破解
 - [系统安全] 五.OllyDbg和Cheat Engine工具逆向分析植物大战僵尸游戏
