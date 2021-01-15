@@ -17,15 +17,12 @@
 - [[系统安全] 九.Windows漏洞利用之MS08-067远程代码执行漏洞复现及深度提权](https://blog.csdn.net/Eastmount/article/details/111341612)
 - [[系统安全] 十.Windows漏洞利用之SMBv3服务远程代码执行漏洞（CVE-2020-0796）复现](https://blog.csdn.net/Eastmount/article/details/111518785)
 - [[系统安全] 十二.熊猫烧香病毒IDA和OD逆向分析（上）病毒初始化](https://blog.csdn.net/Eastmount/article/details/111769346)
+- [[系统安全] 十三.熊猫烧香病毒IDA和OD逆向分析（中）病毒释放机理](https://blog.csdn.net/Eastmount/article/details/111999346)
 
 ---
 
 待分享目录：
 
-- [系统安全] 十一.那些年的熊猫烧香及PE病毒行为机理分析
-- [系统安全] 十二.熊猫烧香病毒IDA和OD逆向分析（上）病毒初始化
-- [系统安全] 十三.熊猫烧香病毒IDA和OD逆向分析（中）病毒释放机理
-- [系统安全] 十四.熊猫烧香病毒IDA和OD逆向分析（下）病毒核心功能
 - [系统安全] 十五.Chrome浏览器保留密码功能渗透解析及音乐软件漏洞复现
 - [系统安全] 十六.PE文件基础之PE文件解析、PE编辑工具使用和PE结构修改
 - [系统安全] 十七.PE数字签名之(上)什么是数字签名及Signtool签名工具详解
