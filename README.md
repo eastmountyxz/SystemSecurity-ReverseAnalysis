@@ -19,6 +19,7 @@
 - [[系统安全] 十一.那些年的熊猫烧香及PE病毒行为机理分析](https://blog.csdn.net/Eastmount/article/details/111706890)
 - [[系统安全] 十二.熊猫烧香病毒IDA和OD逆向分析（上）病毒初始化](https://blog.csdn.net/Eastmount/article/details/111769346)
 - [[系统安全] 十三.熊猫烧香病毒IDA和OD逆向分析（中）病毒释放机理](https://blog.csdn.net/Eastmount/article/details/111999346)
+- [[系统安全] 十四.熊猫烧香病毒IDA和OD逆向分析--病毒释放过程（下）](https://blog.csdn.net/Eastmount/article/details/111712482)
 
 ---
 
