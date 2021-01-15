@@ -16,6 +16,7 @@
 - [[系统安全] 八.Windows漏洞利用之CVE-2019-0708复现及蓝屏攻击](https://blog.csdn.net/Eastmount/article/details/111085560)
 - [[系统安全] 九.Windows漏洞利用之MS08-067远程代码执行漏洞复现及深度提权](https://blog.csdn.net/Eastmount/article/details/111341612)
 - [[系统安全] 十.Windows漏洞利用之SMBv3服务远程代码执行漏洞（CVE-2020-0796）复现](https://blog.csdn.net/Eastmount/article/details/111518785)
+- [[系统安全] 十一.那些年的熊猫烧香及PE病毒行为机理分析](https://blog.csdn.net/Eastmount/article/details/111706890)
 - [[系统安全] 十二.熊猫烧香病毒IDA和OD逆向分析（上）病毒初始化](https://blog.csdn.net/Eastmount/article/details/111769346)
 - [[系统安全] 十三.熊猫烧香病毒IDA和OD逆向分析（中）病毒释放机理](https://blog.csdn.net/Eastmount/article/details/111999346)
 
