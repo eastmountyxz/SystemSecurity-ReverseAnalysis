@@ -20,12 +20,13 @@
 - [[系统安全] 十二.熊猫烧香病毒IDA和OD逆向分析（上）病毒初始化](https://blog.csdn.net/Eastmount/article/details/111769346)
 - [[系统安全] 十三.熊猫烧香病毒IDA和OD逆向分析（中）病毒释放机理](https://blog.csdn.net/Eastmount/article/details/111999346)
 - [[系统安全] 十四.熊猫烧香病毒IDA和OD逆向分析--病毒释放过程（下）](https://blog.csdn.net/Eastmount/article/details/111712482)
+- [[系统安全] 十五.Chrome密码保存功能渗透解析、Chrome蓝屏漏洞及音乐软件漏洞复现](https://blog.csdn.net/Eastmount/article/details/112852434)
 
 ---
 
 待分享目录：
 
-- [系统安全] 十五.Chrome浏览器保留密码功能渗透解析及音乐软件漏洞复现
+
 - [系统安全] 十六.PE文件基础之PE文件解析、PE编辑工具使用和PE结构修改
 - [系统安全] 十七.PE数字签名之(上)什么是数字签名及Signtool签名工具详解
 - [系统安全] 十八.PE数字签名之(下)Signcode、PEView、010Editor、Asn1View工具用法
