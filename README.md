@@ -22,7 +22,7 @@
 - [[系统安全] 十三.熊猫烧香病毒IDA和OD逆向分析（中）病毒释放机理](https://blog.csdn.net/Eastmount/article/details/111999346)
 - [[系统安全] 十四.熊猫烧香病毒IDA和OD逆向分析--病毒释放过程（下）](https://blog.csdn.net/Eastmount/article/details/111712482)
 - [[系统安全] 十五.Chrome密码保存功能渗透解析、Chrome蓝屏漏洞及音乐软件漏洞复现](https://blog.csdn.net/Eastmount/article/details/112852434)
-
+- [[系统安全] 十七.Windows PE病毒概念、分类及感染方式详解](https://blog.csdn.net/Eastmount/article/details/113527586)
 - [[系统安全] 十八.病毒攻防机理及WinRAR恶意劫持漏洞(bat病毒、自启动、定时关机、蓝屏攻击)](https://blog.csdn.net/Eastmount/article/details/113574883)
 
 ---
