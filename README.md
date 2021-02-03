@@ -23,19 +23,15 @@
 - [[系统安全] 十四.熊猫烧香病毒IDA和OD逆向分析--病毒释放过程（下）](https://blog.csdn.net/Eastmount/article/details/111712482)
 - [[系统安全] 十五.Chrome密码保存功能渗透解析、Chrome蓝屏漏洞及音乐软件漏洞复现](https://blog.csdn.net/Eastmount/article/details/112852434)
 
+- [[系统安全] 十八.病毒攻防机理及WinRAR恶意劫持漏洞(bat病毒、自启动、定时关机、蓝屏攻击)](https://blog.csdn.net/Eastmount/article/details/113574883)
+
 ---
 
 待分享目录：
 
 
-- [系统安全] 十六.PE文件基础之PE文件解析、PE编辑工具使用和PE结构修改
 - [系统安全] 十七.PE数字签名之(上)什么是数字签名及Signtool签名工具详解
 - [系统安全] 十八.PE数字签名之(下)Signcode、PEView、010Editor、Asn1View工具用法
-
----
-
-- [系统安全] 十九.Windows PE病毒原理、分类及感染方式详解
-- [系统安全] 二十.病毒详解及批处理病毒制作（自启动、修改密码、定时关机、蓝屏、进程关闭）
 - [系统安全] 二十一.宏病毒之入门基础、防御措施、自发邮件及APT28样本分析
 - [系统安全] 二十二.宏病毒邮件恶意攻击+补充宏病毒攻击复现
 - [系统安全] 二十三.逆向分析之OllyDbg动态调试基础复习及TraceMe案例分析
