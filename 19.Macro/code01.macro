@@ -1,0 +1,33 @@
+Sub AutoOpen()
+  MsgBox "您好，您打开了Word文档！", 0, "宏病毒测试"
+End Sub
+
+Sub AutoExec()
+  MsgBox "您好，您打开了Word程序！", 0, "宏病毒测试"
+End Sub
+
+Sub AutoNew()
+  MsgBox "您好，您选择了新建文件！", 0, "宏病毒测试"
+End Sub
+
+Sub AutoExit()
+  MsgBox "欢迎下次光临！", 0, "宏病毒测试"
+End Sub
+
+Sub AutoClose()
+  MsgBox "下次还要来哦！", 0, "宏病毒测试"
+End Sub
+
+Sub MyFirstVBAProcedure()
+    Dim NormProj
+    MsgBox "欢迎光临XXXXXX安全实验室！", 0, "宏病毒测试"
+    Set NormProj = NormalTemplate.VBProject
+    MsgBox NormProj.Name, 0, "模块文件名"    '显示模板文件的名字
+    With Assistant.NewBalloon           '调出助手
+        .Icon = msoIconAlert
+        .Animation = msoAnimationGetArtsy
+        .Heading = "Attention，Please!"
+        .Text = "Today I turn into a martian!"
+        .Show
+    End With
+End Sub
