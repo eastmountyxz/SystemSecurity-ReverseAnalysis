@@ -28,6 +28,7 @@
 - [[系统安全] 十九.宏病毒之入门基础、防御措施、自发邮件及APT28宏样本分析](https://blog.csdn.net/Eastmount/article/details/113619336)
 - [[系统安全] 二十.PE数字签名之(上)什么是数字签名及Signtool签名工具详解](https://blog.csdn.net/Eastmount/article/details/113744316)
 - [[系统安全] 二十一.PE数字签名之(中)Signcode、PEView、010Editor、Asn1View工具用法](https://blog.csdn.net/Eastmount/article/details/113774264)
+- [[系统安全] 二十二.PE数字签名之(下)微软证书漏洞CVE-2020-0601复现及Windows验证机制分析](https://blog.csdn.net/Eastmount/article/details/113829876)
 
 
 ---
@@ -35,16 +36,11 @@
 待分享目录：
 
 
-- [系统安全] 十七.PE数字签名之(上)什么是数字签名及Signtool签名工具详解
-- [系统安全] 十八.PE数字签名之(下)Signcode、PEView、010Editor、Asn1View工具用法
 - [系统安全] 二十二.宏病毒邮件恶意攻击+补充宏病毒攻击复现
 - [系统安全] 二十三.逆向分析之OllyDbg动态调试基础复习及TraceMe案例分析
 - [系统安全] 二十四.逆向分析之OllyDbg逆向CrackMe01-02及加壳判断
 - [系统安全] 二十五.逆向分析之OllyDbg调试INT3断点、反调试、硬件断点与内存断点
-- [系统安全] 二十六.WannaCry勒索病毒分析(1)Python利用永恒之蓝及Win7勒索加密
-- [系统安全] 二十七.WannaCry勒索病毒分析(2)MS17-010利用及病毒解析
-- [系统安全] 二十八.WannaCry勒索病毒分析(3)蠕虫传播机制分析及IDA和OD逆向
-- [系统安全] 二十九.WannaCry勒索病毒分析(4)蠕虫传播机制全网源码详细解读
+
 
 ---
 
