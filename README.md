@@ -29,6 +29,7 @@
 - [[系统安全] 二十.PE数字签名之(上)什么是数字签名及Signtool签名工具详解](https://blog.csdn.net/Eastmount/article/details/113744316)
 - [[系统安全] 二十一.PE数字签名之(中)Signcode、PEView、010Editor、Asn1View工具用法](https://blog.csdn.net/Eastmount/article/details/113774264)
 - [[系统安全] 二十二.PE数字签名之(下)微软证书漏洞CVE-2020-0601复现及Windows验证机制分析](https://blog.csdn.net/Eastmount/article/details/113829876)
+- [[系统安全] 二十三.逆向分析之OllyDbg动态调试复习及TraceMe案例分析](https://blog.csdn.net/Eastmount/article/details/113923604)
 
 
 ---
