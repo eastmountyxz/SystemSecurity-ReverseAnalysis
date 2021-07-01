@@ -26,6 +26,8 @@
 - [[系统安全] 十七.Windows PE病毒概念、分类及感染方式详解](https://blog.csdn.net/Eastmount/article/details/113527586)
 - [[系统安全] 十八.病毒攻防机理及WinRAR恶意劫持漏洞(bat病毒、自启动、定时关机、蓝屏攻击)](https://blog.csdn.net/Eastmount/article/details/113574883)
 - [[系统安全] 十九.宏病毒之入门基础、防御措施、自发邮件及APT28宏样本分析](https://blog.csdn.net/Eastmount/article/details/113619336)
+- [[系统安全] 二十.PE数字签名之(上)什么是数字签名及Signtool签名工具详解](https://blog.csdn.net/Eastmount/article/details/113744316)
+
 
 ---
 
