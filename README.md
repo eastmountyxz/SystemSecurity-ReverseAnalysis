@@ -33,6 +33,7 @@
 - [[系统安全] 二十四.逆向分析之OllyDbg调试INT3断点、反调试、硬件断点与内存断点](https://blog.csdn.net/Eastmount/article/details/113964355)
 - [[系统安全] 二十五.WannaCry勒索病毒分析 (1)Python复现永恒之蓝漏洞实现勒索加密](https://blog.csdn.net/Eastmount/article/details/114194949)
 - [[系统安全] 二十六.WannaCry勒索病毒分析 (2)MS17-010漏洞利用及蠕虫解析](https://blog.csdn.net/Eastmount/article/details/114274291)
+- [[系统安全] 二十七.WannaCry勒索病毒分析 (3)蠕虫传播机制解析及IDA和OD逆向](https://blog.csdn.net/Eastmount/article/details/114457643)
 
 
 ---
