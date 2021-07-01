@@ -37,6 +37,7 @@
 - [[系统安全] 二十八.WannaCry勒索病毒分析 (4)全网“最“详细的蠕虫传播机制解读](https://blog.csdn.net/Eastmount/article/details/114649732)
 - [[系统安全] 二十九.深信服分享之外部威胁防护和勒索病毒对抗](https://blog.csdn.net/Eastmount/article/details/115034636)
 - [[系统安全] 三十.CS逆向分析 (1)你的游戏子弹用完了吗？Cheat Engine工具入门普及](https://blog.csdn.net/Eastmount/article/details/115839038)
+- [[系统安全] 三十一.恶意代码检测(1)恶意代码攻击溯源及恶意样本分析](https://blog.csdn.net/Eastmount/article/details/118080456)
 
 
 ---
