@@ -37,7 +37,7 @@
 - [[系统安全] 十六.PE文件逆向基础知识(PE解析、PE编辑工具和PE修改)](https://blog.csdn.net/Eastmount/article/details/113141466)
 - [[系统安全] 十七.Windows PE病毒概念、分类及感染方式详解](https://blog.csdn.net/Eastmount/article/details/113527586)
 - [[系统安全] 十八.病毒攻防机理及WinRAR恶意劫持漏洞(bat病毒、自启动、定时关机、蓝屏攻击)](https://blog.csdn.net/Eastmount/article/details/113574883)
-- [[系统安全] 十九.宏病毒之入门基础、防御措施、自发邮件及APT28宏样本分析](https://blog.csdn.net/Eastmount/article/details/113619336)
+- [[系统安全] 十九.宏病毒之入门基础、防御措施、自发邮件及宏样本分析](https://blog.csdn.net/Eastmount/article/details/113619336)
 - [[系统安全] 二十.PE数字签名之(上)什么是数字签名及Signtool签名工具详解](https://blog.csdn.net/Eastmount/article/details/113744316)
 - [[系统安全] 二十一.PE数字签名之(中)Signcode、PEView、010Editor、Asn1View工具用法](https://blog.csdn.net/Eastmount/article/details/113774264)
 - [[系统安全] 二十二.PE数字签名之(下)微软证书漏洞CVE-2020-0601复现及Windows验证机制分析](https://blog.csdn.net/Eastmount/article/details/113829876)
@@ -49,31 +49,12 @@
 - [[系统安全] 二十八.WannaCry勒索病毒分析 (4)全网“最“详细的蠕虫传播机制解读](https://blog.csdn.net/Eastmount/article/details/114649732)
 - [[系统安全] 二十九.深信服分享之外部威胁防护和勒索病毒对抗](https://blog.csdn.net/Eastmount/article/details/115034636)
 - [[系统安全] 三十.CS逆向分析 (1)你的游戏子弹用完了吗？Cheat Engine工具入门普及](https://blog.csdn.net/Eastmount/article/details/115839038)
-- [[系统安全] 三十一.恶意代码检测(1)恶意代码攻击溯源及恶意样本分析](https://blog.csdn.net/Eastmount/article/details/118080456)
+- [[系统安全] 三十一.恶意代码检测(1)恶意代码攻击检测及恶意样本分析](https://blog.csdn.net/Eastmount/article/details/118080456)
 
 
 ---
 
-待分享目录：
 
-
-
-
----
-
-- [系统安全] 三十.深信服分享之外部威胁防护和勒索病毒对抗
-- [系统安全] 三十一.Procmon工具基本用法及文件进程、注册表查看
-- [系统安全] 三十二.恶意样本分析及HGZ木马控制目标服务器
-- [系统安全] 三十三.恶意代码检测(1)恶意代码攻击溯源及恶意样本分析
-- [系统安全] 三十四.恶意代码检测(2)常用技术详解及总结
-- [系统安全] 三十五.恶意代码检测(3)基于机器学习的恶意代码检测技术
-- [系统安全] 三十六.恶意代码检测(4)编写代码自动提取IAT表、字符串及时间戳溯源
-- [系统安全] 三十七.APT攻击检测溯源与常见APT组织的攻击案例
-- [系统安全] 三十八.恶意代码与APT攻击中的武器（强推Seak老师）
-- [系统安全] 三十九.远控木马详解及APT攻击中的远控
-- [系统安全] 四十.PE文件解析之通过Python获取时间戳判断软件来源地区
-- [系统安全] 四十一.APT漏洞利用之WinRAR漏洞复现（CVE-2018-20250）及恶意软件劫持
-- [系统安全] 四十二.宏病毒邮件恶意攻击+补充宏病毒攻击复现
 
 
 ---
