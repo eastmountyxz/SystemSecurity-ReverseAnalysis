@@ -50,9 +50,18 @@
 - [[系统安全] 二十九.深信服分享之外部威胁防护和勒索病毒对抗](https://blog.csdn.net/Eastmount/article/details/115034636)
 - [[系统安全] 三十.CS逆向分析 (1)你的游戏子弹用完了吗？Cheat Engine工具入门普及](https://blog.csdn.net/Eastmount/article/details/115839038)
 - [[系统安全] 三十一.恶意代码检测(1)恶意代码攻击检测及恶意样本分析](https://blog.csdn.net/Eastmount/article/details/118080456)
-
-
----
+- [[系统安全] 三十二.恶意代码检测(2)常用技术详解及总结](https://blog.csdn.net/Eastmount/article/details/118812496)
+- [[系统安全] 三十三.恶意代码检测(3)基于机器学习的恶意代码检测技术](https://blog.csdn.net/Eastmount/article/details/119064665)
+- [[系统安全] 三十四.恶意代码检测(4)编写代码自动提取IAT表、字符串及时间戳](https://blog.csdn.net/Eastmount/article/details/119251662)
+- [[系统安全] 三十五.Procmon工具基本用法及文件进程、注册表查看](https://blog.csdn.net/Eastmount/article/details/120036307)
+- [[系统安全] 三十六.学术分享之基于溯源图的攻击检测安全顶会论文总结](https://blog.csdn.net/Eastmount/article/details/122210982)
+- [[系统安全] 三十七.Metasploit技术之基础用法万字详解及防御机理](https://blog.csdn.net/Eastmount/article/details/122470562)
+- [[系统安全] 三十八.Metasploit后渗透技术信息收集、权限提权和功能模块详解](https://blog.csdn.net/Eastmount/article/details/122541624)
+- [[系统安全] 三十九.Powershell恶意代码检测系列 (1)Powershell基础入门及管道和变量的用法](https://blog.csdn.net/Eastmount/article/details/124049700)
+- [[系统安全] 四十.Powershell恶意代码检测系列 (2)Powershell基础语法和注册表操作](https://blog.csdn.net/Eastmount/article/details/124394239)
+- [[系统安全] 四十一.Powershell恶意代码检测系列 (3)PowerSploit脚本渗透详解](https://blog.csdn.net/Eastmount/article/details/124517225)
+- [[系统安全] 四十二.Powershell恶意代码检测系列 (4)论文总结及抽象语法树（AST）提取](https://blog.csdn.net/Eastmount/article/details/125197855)
+- [系统安全] 四十三.Powershell恶意代码检测系列 (5)抽象语法树自动提取万字详解
 
 
 
