@@ -1,0 +1,67 @@
+下载地址：
+（1）https://github.com/mandiant/capa
+（2）https://github.com/fireeye/capa
+（3）https://github.com/mandiant/capa/releases
+
+
+博客地址：
+https://blog.csdn.net/Eastmount/article/details/129482810
+
+
+基本用法：
+D:\capa>capa.exe -h
+usage: capa.exe [-h] [--version] [-v] [-vv] [-d] [-q] [--color {auto,always,never}]
+                [-f {auto,pe,dotnet,elf,sc32,sc64,freeze}] [-b {vivisect}] [-r RULES] [-s SIGNATURES] [-t TAG] [-j]
+                sample
+
+The FLARE team's open-source tool to identify capabilities in executable files.
+
+positional arguments:
+  sample                path to sample to analyze
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  -v, --verbose         enable verbose result document (no effect with --json)
+  -vv, --vverbose       enable very verbose result document (no effect with --json)
+  -d, --debug           enable debugging output on STDERR
+  -q, --quiet           disable all output but errors
+  --color {auto,always,never}
+                        enable ANSI color codes in results, default: only during interactive session
+  -f {auto,pe,dotnet,elf,sc32,sc64,freeze}, --format {auto,pe,dotnet,elf,sc32,sc64,freeze}
+                        select sample format, auto: (default) detect file type automatically, pe: Windows PE file,
+                        dotnet: .NET PE file, elf: Executable and Linkable Format, sc32: 32-bit shellcode, sc64:
+                        64-bit shellcode, freeze: features previously frozen by capa
+  -b {vivisect}, --backend {vivisect}
+                        select the backend to use
+  -r RULES, --rules RULES
+                        path to rule file or directory, use embedded rules by default
+  -s SIGNATURES, --signatures SIGNATURES
+                        path to .sig/.pat file or directory used to identify library functions, use embedded
+                        signatures by default
+  -t TAG, --tag TAG     filter on rule meta field values
+  -j, --json            emit JSON instead of text
+
+By default, capa uses a default set of embedded rules.
+You can see the rule set here:
+  https://github.com/mandiant/capa-rules
+
+To provide your own rule set, use the `-r` flag:
+  capa  --rules /path/to/rules  suspicious.exe
+  capa  -r      /path/to/rules  suspicious.exe
+
+examples:
+  identify capabilities in a binary
+    capa suspicious.exe
+
+  identify capabilities in 32-bit shellcode, see `-f` for all supported formats
+    capa -f sc32 shellcode.bin
+
+  report match locations
+    capa -v suspicious.exe
+
+  report all feature match details
+    capa -vv suspicious.exe
+
+  filter rules by meta fields, e.g. rule name or namespace
+    capa -t "create TCP socket" suspicious.exe
