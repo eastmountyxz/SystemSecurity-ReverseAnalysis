@@ -61,8 +61,8 @@
 - [[系统安全] 四十.Powershell恶意代码检测系列 (2)Powershell基础语法和注册表操作](https://blog.csdn.net/Eastmount/article/details/124394239)
 - [[系统安全] 四十一.Powershell恶意代码检测系列 (3)PowerSploit脚本渗透详解](https://blog.csdn.net/Eastmount/article/details/124517225)
 - [[系统安全] 四十二.Powershell恶意代码检测系列 (4)论文总结及抽象语法树（AST）提取](https://blog.csdn.net/Eastmount/article/details/125197855)
-- [系统安全] 四十三.Powershell恶意代码检测系列 (5)抽象语法树自动提取万字详解
-
+- [[系统安全] 四十三.Powershell恶意代码检测系列 (5)抽象语法树自动提取万字详解](https://blog.csdn.net/Eastmount/article/details/125574639)
+- [[系统安全] 四十四.恶意代码同源分析及BinDiff软件基础用法](https://blog.csdn.net/Eastmount/article/details/127741113)
 
 
 
