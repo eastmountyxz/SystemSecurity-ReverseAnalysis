@@ -95,7 +95,6 @@ while i<len(apt_name):
                         middle = api_feature.find("', '")
                         api_feature = api_feature[:middle]
                         #print(api_feature)
-                    api_feature = api_lin[:end]
                     api_str += api_feature + ";"
                     count += 1
             else:
