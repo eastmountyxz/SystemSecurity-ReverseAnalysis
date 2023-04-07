@@ -88,6 +88,13 @@ while i<len(apt_name):
                     api_lin = api[start+8:]
                     api = api_lin
                     end = api_lin.find("'},")
+                    #部分api后接description描述
+                    #user32.GetSystemMetrics', 'description': 'fetch screen dimensions
+                    api_feature = api_lin[:end]
+                    if "description" in api_feature:
+                        middle = api_feature.find("', '")
+                        api_feature = api_feature[:middle]
+                        #print(api_feature)
                     api_feature = api_lin[:end]
                     api_str += api_feature + ";"
                     count += 1
