@@ -63,7 +63,11 @@
 - [[系统安全] 四十二.Powershell恶意代码检测系列 (4)论文总结及抽象语法树（AST）提取](https://blog.csdn.net/Eastmount/article/details/125197855)
 - [[系统安全] 四十三.Powershell恶意代码检测系列 (5)抽象语法树自动提取万字详解](https://blog.csdn.net/Eastmount/article/details/125574639)
 - [[系统安全] 四十四.恶意代码同源分析及BinDiff软件基础用法](https://blog.csdn.net/Eastmount/article/details/127741113)
-
+- [[系统安全] 四十五.恶意软件分析 (1)静态分析Capa经典工具的基本用法万字详解](https://blog.csdn.net/Eastmount/article/details/129482810)
+- [[系统安全] 四十六.恶意软件分析 (2)静态分析Capa经典工具批量提取静态特征和ATT&CK技战术](https://blog.csdn.net/Eastmount/article/details/129679664)
+- [[系统安全] 四十七.恶意软件分析 (3)动态分析经典沙箱Cape的安装和基础用法详解](https://blog.csdn.net/Eastmount/article/details/129701307)
+- [[系统安全] 四十八.恶意软件分析 (4)Cape沙箱批量提取动态API特征](https://blog.csdn.net/Eastmount/article/details/129780302)
+- [系统安全] 四十九.恶意软件分析 (5)Cape沙箱分析结果Report报告的API序列批量提取详解
 
 
 ---
