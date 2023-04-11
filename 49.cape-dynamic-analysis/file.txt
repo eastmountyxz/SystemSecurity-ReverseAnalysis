@@ -1,0 +1,23 @@
+.
+|-- analysis.conf
+|-- analysis.log
+|-- binary
+|-- dump.pcap
+|-- memory.dmp
+|-- files
+|   |-- 1234567890
+|       `-- dropped.exe
+|-- logs
+|   |-- 1232.raw
+|   |-- 1540.raw
+|   `-- 1118.raw
+|-- reports
+|   |-- report.html
+|   |-- report.json
+|   |-- report.maec-4.0.1.xml
+|   `-- report.metadata.xml
+`-- shots
+    |-- 0001.jpg
+    |-- 0002.jpg
+    |-- 0003.jpg
+    `-- 0004.jpg
