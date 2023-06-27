@@ -1,0 +1,168 @@
+   no  ...                                                api
+0   1  ...  GetSystemInfo;HeapCreate;NtAllocateVirtualMemo...
+1   2  ...  GetSystemInfo;HeapCreate;NtAllocateVirtualMemo...
+2   3  ...  NtQueryValueKey;GetSystemTimeAsFileTime;HeapCr...
+3   4  ...  NtQueryValueKey;NtClose;NtAllocateVirtualMemor...
+4   5  ...  NtOpenFile;NtCreateSection;NtMapViewOfSection;...
+
+[5 rows x 4 columns]
+Label:
+0    class1
+1    class1
+2    class1
+3    class1
+4    class1
+5    class1
+6    class1
+7    class1
+8    class1
+9    class1
+Name: apt, dtype: object
+LabelEncoder
+[[0]
+ [0]
+ [0]
+ [0]
+ [0]
+ [0]
+ [0]
+ [0]
+ [0]
+ [0]]
+1241
+['class1' 'class2' 'class3' 'class4' 'class5']
+OneHotEncoder:
+[[1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]]
+0    GetSystemInfo;HeapCreate;NtAllocateVirtualMemo...
+1    GetSystemInfo;HeapCreate;NtAllocateVirtualMemo...
+2    NtQueryValueKey;GetSystemTimeAsFileTime;HeapCr...
+3    NtQueryValueKey;NtClose;NtAllocateVirtualMemor...
+4    NtOpenFile;NtCreateSection;NtMapViewOfSection;...
+Name: api, dtype: object
+<class 'pandas.core.series.Series'>
+<keras_preprocessing.text.Tokenizer object at 0x0000028E55D36B08>
+
+('regqueryvalueexw', 1)
+('ntclose', 2)
+('ldrgetprocedureaddress', 3)
+('regopenkeyexw', 4)
+('regclosekey', 5)
+('ntallocatevirtualmemory', 6)
+('sendmessagew', 7)
+('ntwritefile', 8)
+('process32nextw', 9)
+('ntdeviceiocontrolfile', 10)
+===================
+('getsysteminfo', 2651)
+('heapcreate', 2996)
+('ntallocatevirtualmemory', 115547)
+('ntqueryvaluekey', 24120)
+('getsystemtimeasfiletime', 52727)
+('ldrgetdllhandle', 25135)
+('ldrgetprocedureaddress', 199952)
+('memcpy', 9008)
+('setunhandledexceptionfilter', 1504)
+('ntcreatefile', 43260)
+
+(1241, 200)
+(459, 200)
+(650, 200)
+[[  3 135   3   3   2  21   3   3   4   3  96   3   3   4  96   4  96  20
+   22  20   3   6   6  23 128 129   3 103  23  56   2 103  23  20   3  23
+    3   3   3   3   4   1   5  23  12 131  12  20   3  10   2  10   2  20
+    3   4   5  27   3  10   2   6  10   2   3  10   2  10   2   3  10   2
+   10   2  10   2  10   2  10   2   3  10   2  10   2  10   2  10   2   3
+    3   3  36   4   3  23  20   3   5 207  34   6   6   6  11  11   6  11
+    6   6   6   6   6   6   6   6   6  11   6   6  11   6  11   6  11   6
+    6  11   6  34   3 141   3 140   3   3 141  34   6   2  21   4  96   4
+   96   4  96  23   3   3  12 131  12  10   2  10   2   4   5  27  10   2
+    6  10   2  10   2  10   2  10   2  10   2  10   2  10   2  10   2  10
+    2  10   2  10   2  10   2  36   4  23   5 207   6   3   3  12 131  12
+  132   3]
+ [ 27   4  27   4  27   4  27   4  27  27   5  27   4  27   4  27  27  27
+   27  27  27  27   5  27   4  27   4  27   4  27   4  27   4  27   4  27
+    4  27   4  27   4  27   5  52   2  21   4   5   1   1   1   5  21  25
+    2  52  12  33  51  28  34  30   2  52   2  21   4   5  27   5  52   6
+    6  52   4   1   5   4  52  54   7   7  20  52   7  52   7   7   6   4
+    4  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24   5
+    5   3   7  50  50  50  95  50  50  50  50  50   4   1   5   4   3   3
+    3   3   3   7   7   7   3   7   3   7   3  60   3   3   7   7   7   7
+   60   3   7   7   7   7   7   7   7   7  52  20   3   3   3  14  14  60
+   18  19  18  19   2  21   4   5  18  19  18  19  18  19  18  19   7   7
+    7   7   7   7   7   7   7   7   7  52   7   7   7   7   7  60   7   7
+    7   7]]
+
+模型训练
+Epoch 1/15
+
+ 1/20 [>.............................] - ETA: 5s - loss: 1.5986 - accuracy: 0.2656
+ 2/20 [==>...........................] - ETA: 1s - loss: 1.6050 - accuracy: 0.2266
+ 3/20 [===>..........................] - ETA: 1s - loss: 1.5777 - accuracy: 0.2292
+ 4/20 [=====>........................] - ETA: 2s - loss: 1.5701 - accuracy: 0.2500
+ 5/20 [======>.......................] - ETA: 2s - loss: 1.5628 - accuracy: 0.2719
+ 6/20 [========>.....................] - ETA: 3s - loss: 1.5439 - accuracy: 0.3125
+ 7/20 [=========>....................] - ETA: 3s - loss: 1.5306 - accuracy: 0.3348
+ 8/20 [===========>..................] - ETA: 3s - loss: 1.5162 - accuracy: 0.3535
+ 9/20 [============>.................] - ETA: 3s - loss: 1.5020 - accuracy: 0.3698
+10/20 [==============>...............] - ETA: 3s - loss: 1.4827 - accuracy: 0.3969
+11/20 [===============>..............] - ETA: 3s - loss: 1.4759 - accuracy: 0.4020
+12/20 [=================>............] - ETA: 3s - loss: 1.4734 - accuracy: 0.4036
+13/20 [==================>...........] - ETA: 3s - loss: 1.4456 - accuracy: 0.4255
+14/20 [====================>.........] - ETA: 3s - loss: 1.4322 - accuracy: 0.4353
+15/20 [=====================>........] - ETA: 2s - loss: 1.4157 - accuracy: 0.4469
+16/20 [=======================>......] - ETA: 2s - loss: 1.4093 - accuracy: 0.4482
+17/20 [========================>.....] - ETA: 2s - loss: 1.4010 - accuracy: 0.4531
+18/20 [==========================>...] - ETA: 1s - loss: 1.3920 - accuracy: 0.4601
+19/20 [===========================>..] - ETA: 0s - loss: 1.3841 - accuracy: 0.4638
+20/20 [==============================] - ETA: 0s - loss: 1.3763 - accuracy: 0.4674
+20/20 [==============================] - 20s 1s/step - loss: 1.3763 - accuracy: 0.4674 - val_loss: 1.3056 - val_accuracy: 0.4837
+
+Time used: 26.1328806
+{'loss': [1.3762551546096802], 'accuracy': [0.467365026473999], 
+ 'val_loss': [1.305567979812622], 'val_accuracy': [0.48366013169288635]}
+
+模型预测
+[[ 40  14  11   1  44]
+ [ 16  57  10   0  17]
+ [  6  30  61   0  23]
+ [ 12  20  15  47  36]
+ [ 11  14  19   0 146]]
+              precision    recall  f1-score   support
+
+           0     0.4706    0.3636    0.4103       110
+           1     0.4222    0.5700    0.4851       100
+           2     0.5259    0.5083    0.5169       120
+           3     0.9792    0.3615    0.5281       130
+           4     0.5489    0.7684    0.6404       190
+
+    accuracy                         0.5400       650
+   macro avg     0.5893    0.5144    0.5162       650
+weighted avg     0.5980    0.5400    0.5323       650
+
+accuracy 0.54
+
+              precision    recall  f1-score   support
+
+           0     0.9086    0.4517    0.6034       352
+           1     0.5943    0.5888    0.5915       107
+           2     0.0000    0.0000    0.0000         0
+           3     0.0000    0.0000    0.0000         0
+           4     0.0000    0.0000    0.0000         0
+
+    accuracy                         0.4837       459
+   macro avg     0.3006    0.2081    0.2390       459
+weighted avg     0.8353    0.4837    0.6006       459
+
+accuracy 0.48366013071895425
+
+Time used: 14.170902800000002
+
