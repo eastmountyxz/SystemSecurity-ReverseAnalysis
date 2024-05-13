@@ -1,0 +1,160 @@
+graph: {
+title: "Graph of _main_0"
+manhattan_edges: yes
+layoutalgorithm: mindepth
+finetuning: no
+layout_downfactor: 100
+layout_upfactor: 0
+layout_nearfactor: 0
+xlspace: 12
+yspace: 30
+// IDA palette
+colorentry 32: 0 0 0
+colorentry 33: 0 0 255
+colorentry 34: 0 0 255
+colorentry 35: 128 128 128
+colorentry 36: 128 128 128
+colorentry 37: 0 0 128
+colorentry 38: 0 0 128
+colorentry 39: 0 0 255
+colorentry 40: 0 0 255
+colorentry 41: 0 0 128
+colorentry 42: 0 128 0
+colorentry 43: 0 255 0
+colorentry 44: 0 128 0
+colorentry 45: 255 128 0
+colorentry 46: 0 128 0
+colorentry 47: 128 128 255
+colorentry 48: 255 0 0
+colorentry 49: 128 128 0
+colorentry 50: 1 1 1
+colorentry 51: 192 192 192
+colorentry 52: 0 0 255
+colorentry 53: 0 0 255
+colorentry 54: 0 0 255
+colorentry 55: 128 128 128
+colorentry 56: 128 128 255
+colorentry 57: 0 128 0
+colorentry 58: 0 0 128
+colorentry 59: 0 0 255
+colorentry 60: 128 0 128
+colorentry 61: 0 128 0
+colorentry 62: 0 128 0
+colorentry 63: 0 128 64
+colorentry 64: 0 0 128
+colorentry 65: 0 0 128
+colorentry 66: 255 0 255
+colorentry 67: 128 128 0
+colorentry 68: 0 0 128
+colorentry 69: 0 0 255
+colorentry 70: 0 0 128
+colorentry 71: 0 0 255
+colorentry 72: 0 0 0
+colorentry 73: 255 255 255
+colorentry 74: 192 187 175
+colorentry 75: 0 255 255
+colorentry 76: 0 0 0
+colorentry 77: 128 0 0
+colorentry 78: 128 128 128
+colorentry 79: 128 128 0
+colorentry 80: 255 0 255
+colorentry 81: 0 0 0
+colorentry 82: 0 0 255
+colorentry 83: 0 0 0
+colorentry 84: 50 205 50
+node: { title: "0" label: "69_main_031:
+push    ebp
+mov     ebp, esp
+sub     esp, 50h
+push    ebx
+push    esi
+push    edi
+lea     edi, [ebp+var_50]
+mov     ecx, 14h
+mov     eax, 0CCCCCCCCh
+rep stosd
+mov     [ebp+var_10], 0
+lea     eax, [ebp+var_C]
+push    eax
+lea     ecx, [ebp+var_8]
+push    ecx
+push    offset aDD; \"%d %d\"
+call    _scanf
+add     esp, 0Ch
+mov     edx, [ebp+var_C]
+push    edx
+mov     eax, [ebp+var_8]
+push    eax
+push    offset byte_425084; Format
+call    _printf
+add     esp, 0Ch
+cmp     [ebp+var_8], 0Ah
+jle     short loc_4010DE" vertical_order: 0 }
+node: { title: "1" label: "push    offset byte_425074; Format
+call    _printf
+add     esp, 4
+jmp     short loc_4010EB" }
+node: { title: "2" label: "push    offset byte_425060; Format
+call    _printf
+add     esp, 4" }
+node: { title: "3" label: "mov     [ebp+var_4], 0
+jmp     short loc_4010FD" }
+node: { title: "4" label: "mov     ecx, [ebp+var_4]
+add     ecx, 1
+mov     [ebp+var_4], ecx" }
+node: { title: "5" label: "cmp     [ebp+var_4], 0Ah
+jg      short loc_401117" }
+node: { title: "6" label: "mov     edx, [ebp+var_10]
+add     edx, [ebp+var_4]
+mov     [ebp+var_10], edx
+mov     eax, [ebp+var_4]
+add     eax, 1
+mov     [ebp+var_4], eax
+jmp     short loc_4010F4" }
+node: { title: "7" label: "mov     ecx, [ebp+var_10]
+push    ecx
+push    offset a1210D; \"1 + 2 + ... + 10 = %d\\n\"
+call    _printf
+add     esp, 8
+mov     edx, [ebp+var_C]
+push    edx
+mov     eax, [ebp+var_8]
+push    eax
+call    sub_401005
+add     esp, 8
+mov     ecx, [ebp+var_10]
+add     ecx, eax
+mov     [ebp+var_10], ecx
+mov     edx, [ebp+var_10]
+push    edx
+push    offset byte_425030; Format
+call    _printf
+add     esp, 8
+xor     eax, eax
+pop     edi
+pop     esi
+pop     ebx
+add     esp, 50h
+cmp     ebp, esp
+call    __chkesp
+mov     esp, ebp
+pop     ebp
+retn" vertical_order: 8 }
+// node 0
+edge: { sourcename: "0" targetname: "1" label: "false" color: red }
+edge: { sourcename: "0" targetname: "2" label: "true" color: darkgreen }
+// node 1
+edge: { sourcename: "1" targetname: "3" }
+// node 2
+edge: { sourcename: "2" targetname: "3" }
+// node 3
+edge: { sourcename: "3" targetname: "5" }
+// node 4
+edge: { sourcename: "4" targetname: "5" }
+// node 5
+edge: { sourcename: "5" targetname: "6" label: "false" color: red }
+edge: { sourcename: "5" targetname: "7" label: "true" color: darkgreen }
+// node 6
+edge: { sourcename: "6" targetname: "4" }
+// node 7
+}
